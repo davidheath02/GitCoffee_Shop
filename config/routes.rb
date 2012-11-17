@@ -1,4 +1,6 @@
 CoffeeShop::Application.routes.draw do
+  resources :carts
+
   resources :products
 
   resources :registrations
