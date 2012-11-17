@@ -1,4 +1,6 @@
 CoffeeShop::Application.routes.draw do
+  resources :products
+
   resources :registrations
 
   # The priority is based upon order of creation:
